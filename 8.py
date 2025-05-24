@@ -1,5 +1,11 @@
 import logging
 
+# 1 - dz
+from datetime import date
+now = date.today()
+logging.basicConfig(level=logging.INFO)
+logging.info(now.strftime("%Y-%m-%d"))
+
 print("============================================================")
 
 # 2
