@@ -42,7 +42,7 @@ print("================================================")
 
 # декоратор (покращує звичний вигляд чогось)
 def c(function):                                  # base
-    def c(*args, **kwargs)
+    def c(*args, **kwargs):
         try:
             result = function(*args, **kwargs)    # launching
         except Exception as exc:
