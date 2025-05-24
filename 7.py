@@ -56,3 +56,13 @@ for _ in res:
     print(_)
 
 print("================================================================================================================================================")
+print("Task 4")
+# 4
+import random
+import string
+def random_letters():
+    while True:
+        yield random.choice(string.ascii_letters)
+gen = random_letters()
+for _ in range(100):
+    print(next(gen))
